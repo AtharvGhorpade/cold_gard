@@ -1,0 +1,86 @@
+[
+  {
+    "id": "CP-PUN-01",
+    "name": "Pune Central Cold Store (origin)",
+    "lat": 18.5204,
+    "lon": 73.8567,
+    "type": "origin"
+  },
+  {
+    "id": "CP-LON-01",
+    "name": "Lonavala Checkpost",
+    "lat": 18.7546,
+    "lon": 73.4062,
+    "type": "checkpoint"
+  },
+  {
+    "id": "CP-MUM-01",
+    "name": "Mumbai (Kurla) Depot",
+    "lat": 19.0728,
+    "lon": 72.8826,
+    "type": "depot"
+  },
+  {
+    "id": "CP-NSK-01",
+    "name": "Nashik District Store",
+    "lat": 19.9975,
+    "lon": 73.7898,
+    "type": "district_store"
+  },
+  {
+    "id": "CP-AHN-01",
+    "name": "Ahilyanagar (Ahmednagar) PHC Hub",
+    "lat": 19.0948,
+    "lon": 74.748,
+    "type": "district_store"
+  },
+  {
+    "id": "CP-SOL-01",
+    "name": "Solapur Depot",
+    "lat": 17.6599,
+    "lon": 75.9064,
+    "type": "depot"
+  },
+  {
+    "id": "CP-AUR-01",
+    "name": "Chhatrapati Sambhajinagar Regional Store",
+    "lat": 19.8762,
+    "lon": 75.3433,
+    "type": "regional_store"
+  },
+  {
+    "id": "CP-DHU-01",
+    "name": "Dhule Depot",
+    "lat": 20.9042,
+    "lon": 74.7749,
+    "type": "depot"
+  },
+  {
+    "id": "CP-SUR-01",
+    "name": "Surat Depot",
+    "lat": 21.1702,
+    "lon": 72.8311,
+    "type": "depot"
+  },
+  {
+    "id": "CP-NAG-01",
+    "name": "Nagpur Regional Store",
+    "lat": 21.1458,
+    "lon": 79.0882,
+    "type": "regional_store"
+  },
+  {
+    "id": "CP-HUB-01",
+    "name": "Hubballi Depot",
+    "lat": 15.3647,
+    "lon": 75.124,
+    "type": "depot"
+  },
+  {
+    "id": "CP-HYD-01",
+    "name": "Hyderabad Regional Store",
+    "lat": 17.385,
+    "lon": 78.4867,
+    "type": "regional_store"
+  }
+]

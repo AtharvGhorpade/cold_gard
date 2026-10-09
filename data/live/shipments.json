@@ -1,0 +1,25 @@
+[
+  {
+    "vaccine": "MR",
+    "vaccine_name": "Measles-Rubella (MR), lyophilised",
+    "route": "custom",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-LON-01"
+    ],
+    "scenario": "live",
+    "description": "atharv · mh 12 ab 2323",
+    "destination_id": "CP-LON-01",
+    "departed_at": "2026-10-08T08:00:00.000Z",
+    "distance_km": 54.1,
+    "doses": 968,
+    "batch": "br 10023",
+    "driver": "atharv",
+    "vehicle": "mh 12 ab 2323",
+    "cold_box": "cb_01",
+    "sensor_id": "TL-2210",
+    "shipment_id": "SHP-1013",
+    "source": "user",
+    "feed": "live"
+  }
+]

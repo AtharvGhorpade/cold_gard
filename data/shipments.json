@@ -1,0 +1,282 @@
+[
+  {
+    "shipment_id": "SHP-1001",
+    "vaccine": "MR",
+    "vaccine_name": "Measles-Rubella (MR), lyophilised",
+    "route": "PUN-MUM",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-LON-01",
+      "CP-MUM-01"
+    ],
+    "scenario": "normal",
+    "description": "Routine MR delivery to Mumbai, no issues",
+    "destination_id": "CP-MUM-01",
+    "ground_truth": {
+      "trip_duration_min": 148,
+      "distance_km": 119.6,
+      "departed_at": "2026-10-08T06:00:00+05:30",
+      "final_viability_pct": 100.0,
+      "final_status": "OK",
+      "excursion_count": 0,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1002",
+    "vaccine": "BCG",
+    "vaccine_name": "BCG (lyophilised)",
+    "route": "PUN-NAG",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-AHN-01",
+      "CP-AUR-01",
+      "CP-NAG-01"
+    ],
+    "scenario": "door_open",
+    "description": "Repeated door-open events during handling stops",
+    "destination_id": "CP-NAG-01",
+    "ground_truth": {
+      "trip_duration_min": 767,
+      "distance_km": 635.2,
+      "departed_at": "2026-10-08T06:30:00+05:30",
+      "final_viability_pct": 99.98,
+      "final_status": "AT_RISK",
+      "excursion_count": 3,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1003",
+    "vaccine": "PENTA",
+    "vaccine_name": "Pentavalent (DTwP-HepB-Hib)",
+    "route": "PUN-HYD",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-SOL-01",
+      "CP-HYD-01"
+    ],
+    "scenario": "compressor_fail",
+    "description": "Reefer compressor fails, temperature climbs steadily",
+    "destination_id": "CP-HYD-01",
+    "ground_truth": {
+      "trip_duration_min": 619,
+      "distance_km": 512.1,
+      "departed_at": "2026-10-08T07:00:00+05:30",
+      "final_viability_pct": 99.89,
+      "final_status": "AT_RISK",
+      "excursion_count": 1,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1004",
+    "vaccine": "ROTA",
+    "vaccine_name": "Rotavirus (oral, liquid)",
+    "route": "PUN-NSK-SUR",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-NSK-01",
+      "CP-DHU-01",
+      "CP-SUR-01"
+    ],
+    "scenario": "power_cut",
+    "description": "Vehicle power cut for ~90 min in afternoon heat",
+    "destination_id": "CP-SUR-01",
+    "ground_truth": {
+      "trip_duration_min": 619,
+      "distance_km": 512.2,
+      "departed_at": "2026-10-08T07:30:00+05:30",
+      "final_viability_pct": 98.97,
+      "final_status": "AT_RISK",
+      "excursion_count": 1,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1005",
+    "vaccine": "TT",
+    "vaccine_name": "Tetanus Toxoid",
+    "route": "PUN-HUB",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-SOL-01",
+      "CP-HUB-01"
+    ],
+    "scenario": "freeze_low",
+    "description": "Ice pack placed too close to load, sub-zero exposure",
+    "destination_id": "CP-HUB-01",
+    "ground_truth": {
+      "trip_duration_min": 611,
+      "distance_km": 505.3,
+      "departed_at": "2026-10-08T08:00:00+05:30",
+      "final_viability_pct": 0.0,
+      "final_status": "DISCARD",
+      "excursion_count": 1,
+      "frozen": true
+    }
+  },
+  {
+    "shipment_id": "SHP-1006",
+    "vaccine": "HPV",
+    "vaccine_name": "HPV (recombinant VLP)",
+    "route": "PUN-MUM",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-LON-01",
+      "CP-MUM-01"
+    ],
+    "scenario": "sensor_dropout",
+    "description": "Temperature normal but 40-min telemetry gap",
+    "destination_id": "CP-MUM-01",
+    "ground_truth": {
+      "trip_duration_min": 148,
+      "distance_km": 119.6,
+      "departed_at": "2026-10-08T08:30:00+05:30",
+      "final_viability_pct": 100.0,
+      "final_status": "OK",
+      "excursion_count": 0,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1007",
+    "vaccine": "MR",
+    "vaccine_name": "Measles-Rubella (MR), lyophilised",
+    "route": "PUN-NAG",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-AHN-01",
+      "CP-AUR-01",
+      "CP-NAG-01"
+    ],
+    "scenario": "power_cut",
+    "description": "Power cut on long haul to Nagpur",
+    "destination_id": "CP-NAG-01",
+    "ground_truth": {
+      "trip_duration_min": 767,
+      "distance_km": 635.2,
+      "departed_at": "2026-10-08T09:00:00+05:30",
+      "final_viability_pct": 99.17,
+      "final_status": "AT_RISK",
+      "excursion_count": 1,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1008",
+    "vaccine": "BCG",
+    "vaccine_name": "BCG (lyophilised)",
+    "route": "PUN-HYD",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-SOL-01",
+      "CP-HYD-01"
+    ],
+    "scenario": "normal",
+    "description": "Routine BCG delivery to Hyderabad",
+    "destination_id": "CP-HYD-01",
+    "ground_truth": {
+      "trip_duration_min": 619,
+      "distance_km": 512.1,
+      "departed_at": "2026-10-08T09:30:00+05:30",
+      "final_viability_pct": 100.0,
+      "final_status": "OK",
+      "excursion_count": 0,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1009",
+    "vaccine": "PENTA",
+    "vaccine_name": "Pentavalent (DTwP-HepB-Hib)",
+    "route": "PUN-NSK-SUR",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-NSK-01",
+      "CP-DHU-01",
+      "CP-SUR-01"
+    ],
+    "scenario": "door_open",
+    "description": "Frequent door openings at Dhule depot",
+    "destination_id": "CP-SUR-01",
+    "ground_truth": {
+      "trip_duration_min": 619,
+      "distance_km": 512.2,
+      "departed_at": "2026-10-08T10:00:00+05:30",
+      "final_viability_pct": 99.99,
+      "final_status": "AT_RISK",
+      "excursion_count": 3,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1010",
+    "vaccine": "ROTA",
+    "vaccine_name": "Rotavirus (oral, liquid)",
+    "route": "PUN-HUB",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-SOL-01",
+      "CP-HUB-01"
+    ],
+    "scenario": "compressor_fail",
+    "description": "Compressor fault after Solapur, no alarm raised",
+    "destination_id": "CP-HUB-01",
+    "ground_truth": {
+      "trip_duration_min": 611,
+      "distance_km": 505.3,
+      "departed_at": "2026-10-08T10:30:00+05:30",
+      "final_viability_pct": 99.23,
+      "final_status": "AT_RISK",
+      "excursion_count": 1,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1011",
+    "vaccine": "TT",
+    "vaccine_name": "Tetanus Toxoid",
+    "route": "PUN-MUM",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-LON-01",
+      "CP-MUM-01"
+    ],
+    "scenario": "normal",
+    "description": "Routine TT delivery to Mumbai",
+    "destination_id": "CP-MUM-01",
+    "ground_truth": {
+      "trip_duration_min": 148,
+      "distance_km": 119.6,
+      "departed_at": "2026-10-08T11:00:00+05:30",
+      "final_viability_pct": 100.0,
+      "final_status": "OK",
+      "excursion_count": 0,
+      "frozen": false
+    }
+  },
+  {
+    "shipment_id": "SHP-1012",
+    "vaccine": "HPV",
+    "vaccine_name": "HPV (recombinant VLP)",
+    "route": "PUN-HYD",
+    "checkpoints": [
+      "CP-PUN-01",
+      "CP-SOL-01",
+      "CP-HYD-01"
+    ],
+    "scenario": "freeze_low",
+    "description": "Sub-zero exposure in a cold-room mix-up",
+    "destination_id": "CP-HYD-01",
+    "ground_truth": {
+      "trip_duration_min": 619,
+      "distance_km": 512.1,
+      "departed_at": "2026-10-08T11:30:00+05:30",
+      "final_viability_pct": 0.0,
+      "final_status": "DISCARD",
+      "excursion_count": 1,
+      "frozen": true
+    }
+  }
+]

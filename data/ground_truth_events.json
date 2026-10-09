@@ -1,0 +1,218 @@
+[
+  {
+    "shipment_id": "SHP-1002",
+    "type": "HEAT",
+    "start": "2026-10-08T09:05:00+05:30",
+    "end": "2026-10-08T09:25:00+05:30",
+    "duration_min": 25,
+    "peak_temp_c": 12.44,
+    "degree_minutes": 47.8,
+    "viability_at_end_pct": 99.99,
+    "confirmed_at": "2026-10-08T09:10:00+05:30",
+    "truck_position": {
+      "lat": 19.239919,
+      "lon": 74.858503
+    },
+    "expected_alert_checkpoint": "CP-AUR-01",
+    "expected_alert_distance_km": 87.1,
+    "expected_alert_eta_min": 105.0
+  },
+  {
+    "shipment_id": "SHP-1002",
+    "type": "HEAT",
+    "start": "2026-10-08T12:55:00+05:30",
+    "end": "2026-10-08T13:15:00+05:30",
+    "duration_min": 25,
+    "peak_temp_c": 12.06,
+    "degree_minutes": 45.7,
+    "viability_at_end_pct": 99.98,
+    "confirmed_at": "2026-10-08T13:00:00+05:30",
+    "truck_position": {
+      "lat": 20.196179,
+      "lon": 76.287514
+    },
+    "expected_alert_checkpoint": "CP-NAG-01",
+    "expected_alert_distance_km": 309.9,
+    "expected_alert_eta_min": 372.0
+  },
+  {
+    "shipment_id": "SHP-1002",
+    "type": "HEAT",
+    "start": "2026-10-08T16:10:00+05:30",
+    "end": "2026-10-08T16:20:00+05:30",
+    "duration_min": 15,
+    "peak_temp_c": 10.51,
+    "degree_minutes": 16.6,
+    "viability_at_end_pct": 99.98,
+    "confirmed_at": "2026-10-08T16:15:00+05:30",
+    "truck_position": {
+      "lat": 20.693681,
+      "lon": 77.754696
+    },
+    "expected_alert_checkpoint": "CP-NAG-01",
+    "expected_alert_distance_km": 147.3,
+    "expected_alert_eta_min": 177.0
+  },
+  {
+    "shipment_id": "SHP-1003",
+    "type": "HEAT",
+    "start": "2026-10-08T10:25:00+05:30",
+    "end": "2026-10-08T17:15:00+05:30",
+    "duration_min": 415,
+    "peak_temp_c": 14.32,
+    "degree_minutes": 2329.7,
+    "viability_at_end_pct": 99.89,
+    "confirmed_at": "2026-10-08T10:30:00+05:30",
+    "truck_position": {
+      "lat": 17.884384,
+      "lon": 75.371099
+    },
+    "expected_alert_checkpoint": "CP-SOL-01",
+    "expected_alert_distance_km": 61.9,
+    "expected_alert_eta_min": 74.0
+  },
+  {
+    "shipment_id": "SHP-1004",
+    "type": "HEAT",
+    "start": "2026-10-08T11:10:00+05:30",
+    "end": "2026-10-08T13:05:00+05:30",
+    "duration_min": 120,
+    "peak_temp_c": 32.39,
+    "degree_minutes": 2028.9,
+    "viability_at_end_pct": 98.97,
+    "confirmed_at": "2026-10-08T11:15:00+05:30",
+    "truck_position": {
+      "lat": 20.143181,
+      "lon": 73.947986
+    },
+    "expected_alert_checkpoint": "CP-DHU-01",
+    "expected_alert_distance_km": 120.7,
+    "expected_alert_eta_min": 145.0
+  },
+  {
+    "shipment_id": "SHP-1005",
+    "type": "FREEZE",
+    "start": "2026-10-08T11:05:00+05:30",
+    "end": "2026-10-08T13:15:00+05:30",
+    "duration_min": 135,
+    "peak_temp_c": -6.29,
+    "degree_minutes": 887.2,
+    "viability_at_end_pct": 0.0,
+    "confirmed_at": "2026-10-08T11:10:00+05:30",
+    "truck_position": {
+      "lat": 17.945046,
+      "lon": 75.227267
+    },
+    "expected_alert_checkpoint": "CP-SOL-01",
+    "expected_alert_distance_km": 78.6,
+    "expected_alert_eta_min": 94.0
+  },
+  {
+    "shipment_id": "SHP-1007",
+    "type": "HEAT",
+    "start": "2026-10-08T13:30:00+05:30",
+    "end": "2026-10-08T15:25:00+05:30",
+    "duration_min": 120,
+    "peak_temp_c": 34.12,
+    "degree_minutes": 2206.3,
+    "viability_at_end_pct": 99.17,
+    "confirmed_at": "2026-10-08T13:35:00+05:30",
+    "truck_position": {
+      "lat": 19.902703,
+      "lon": 75.421492
+    },
+    "expected_alert_checkpoint": "CP-NAG-01",
+    "expected_alert_distance_km": 406.1,
+    "expected_alert_eta_min": 487.0
+  },
+  {
+    "shipment_id": "SHP-1009",
+    "type": "HEAT",
+    "start": "2026-10-08T12:05:00+05:30",
+    "end": "2026-10-08T12:25:00+05:30",
+    "duration_min": 25,
+    "peak_temp_c": 12.48,
+    "degree_minutes": 48.4,
+    "viability_at_end_pct": 100.0,
+    "confirmed_at": "2026-10-08T12:10:00+05:30",
+    "truck_position": {
+      "lat": 19.49353,
+      "lon": 73.812616
+    },
+    "expected_alert_checkpoint": "CP-NSK-01",
+    "expected_alert_distance_km": 56.1,
+    "expected_alert_eta_min": 67.0
+  },
+  {
+    "shipment_id": "SHP-1009",
+    "type": "HEAT",
+    "start": "2026-10-08T15:10:00+05:30",
+    "end": "2026-10-08T15:30:00+05:30",
+    "duration_min": 25,
+    "peak_temp_c": 12.08,
+    "degree_minutes": 50.8,
+    "viability_at_end_pct": 99.99,
+    "confirmed_at": "2026-10-08T15:15:00+05:30",
+    "truck_position": {
+      "lat": 20.616006,
+      "lon": 74.461383
+    },
+    "expected_alert_checkpoint": "CP-DHU-01",
+    "expected_alert_distance_km": 45.7,
+    "expected_alert_eta_min": 55.0
+  },
+  {
+    "shipment_id": "SHP-1009",
+    "type": "HEAT",
+    "start": "2026-10-08T17:45:00+05:30",
+    "end": "2026-10-08T18:05:00+05:30",
+    "duration_min": 25,
+    "peak_temp_c": 12.04,
+    "degree_minutes": 45.4,
+    "viability_at_end_pct": 99.99,
+    "confirmed_at": "2026-10-08T17:50:00+05:30",
+    "truck_position": {
+      "lat": 21.012785,
+      "lon": 73.97965
+    },
+    "expected_alert_checkpoint": "CP-SUR-01",
+    "expected_alert_distance_km": 120.4,
+    "expected_alert_eta_min": 145.0
+  },
+  {
+    "shipment_id": "SHP-1010",
+    "type": "HEAT",
+    "start": "2026-10-08T13:45:00+05:30",
+    "end": "2026-10-08T20:40:00+05:30",
+    "duration_min": 420,
+    "peak_temp_c": 14.23,
+    "degree_minutes": 2302.2,
+    "viability_at_end_pct": 99.23,
+    "confirmed_at": "2026-10-08T13:50:00+05:30",
+    "truck_position": {
+      "lat": 17.915082,
+      "lon": 75.299012
+    },
+    "expected_alert_checkpoint": "CP-SOL-01",
+    "expected_alert_distance_km": 70.3,
+    "expected_alert_eta_min": 84.0
+  },
+  {
+    "shipment_id": "SHP-1012",
+    "type": "FREEZE",
+    "start": "2026-10-08T14:40:00+05:30",
+    "end": "2026-10-08T16:50:00+05:30",
+    "duration_min": 135,
+    "peak_temp_c": -6.16,
+    "degree_minutes": 868.4,
+    "viability_at_end_pct": 0.0,
+    "confirmed_at": "2026-10-08T14:45:00+05:30",
+    "truck_position": {
+      "lat": 17.930182,
+      "lon": 75.263073
+    },
+    "expected_alert_checkpoint": "CP-SOL-01",
+    "expected_alert_distance_km": 74.4,
+    "expected_alert_eta_min": 89.0
+  }
+]

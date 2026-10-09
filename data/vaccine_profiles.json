@@ -1,0 +1,71 @@
+{
+  "_sources": [
+    "WHO, Temperature Sensitivity of Vaccines (2014) - heat/freeze ranking poster",
+    "WHO SEARO, Immunization Handbook (India) Unit 4: cold chain - freezing points (HepB/Penta -0.5 C; IPV/DPT/TT -3 C)",
+    "CDC, Storage and Handling of Immunobiologics, Table 7-1 - storage ranges (MMR -50 to 8 C; HepB, RV 2-8 C do not freeze)",
+    "CDC, Storage and Handling Guide - reconstituted MMR use within 8 h",
+    "Participant Training Manual, Vaccine & Cold Chain Management (2023) - BCG, Penta 2-8 C, never freeze",
+    "Wikipedia 'Vaccine storage' summary table - HPV very heat stable, freeze and light sensitive",
+    "Heat half-lives (72/168/336/48/1000/672 h at 37 C) are CLASS-BASED ESTIMATES derived from the qualitative WHO ratings above. Verify against manufacturer package inserts before real use."
+  ],
+  "MR": {
+    "name": "Measles-Rubella (MR), lyophilised",
+    "min_c": 2,
+    "max_c": 8,
+    "freeze_damage_below_c": null,
+    "heat_half_life_h_at_37c": 72,
+    "reconstituted_max_h": 8,
+    "label_storage": "-50 to 8 C; heat and light sensitive",
+    "basis": "WHO: heat sensitive, not freeze-damaged; CDC MMR reconstituted use within 8 h"
+  },
+  "BCG": {
+    "name": "BCG (lyophilised)",
+    "min_c": 2,
+    "max_c": 8,
+    "freeze_damage_below_c": 0.0,
+    "heat_half_life_h_at_37c": 168,
+    "reconstituted_max_h": null,
+    "label_storage": "2 to 8 C; do not freeze; light sensitive",
+    "basis": "Label: do not freeze; WHO: relatively heat stable (lyophilised)"
+  },
+  "PENTA": {
+    "name": "Pentavalent (DTwP-HepB-Hib)",
+    "min_c": 2,
+    "max_c": 8,
+    "freeze_damage_below_c": -0.5,
+    "heat_half_life_h_at_37c": 336,
+    "reconstituted_max_h": null,
+    "label_storage": "2 to 8 C; never freeze",
+    "basis": "WHO handbook: HepB/Penta freezes at -0.5 C; relatively heat stable"
+  },
+  "ROTA": {
+    "name": "Rotavirus (oral, liquid)",
+    "min_c": 2,
+    "max_c": 8,
+    "freeze_damage_below_c": 0.0,
+    "heat_half_life_h_at_37c": 48,
+    "reconstituted_max_h": null,
+    "label_storage": "2 to 8 C; do not freeze",
+    "basis": "WHO: heat sensitive (OPV, Rota); freeze handling per product insert"
+  },
+  "HPV": {
+    "name": "HPV (recombinant VLP)",
+    "min_c": 2,
+    "max_c": 8,
+    "freeze_damage_below_c": 0.0,
+    "heat_half_life_h_at_37c": 1000,
+    "reconstituted_max_h": null,
+    "label_storage": "2 to 8 C; do not freeze; light sensitive",
+    "basis": "WHO/Wikipedia summary: very heat stable, freeze and light sensitive"
+  },
+  "TT": {
+    "name": "Tetanus Toxoid",
+    "min_c": 2,
+    "max_c": 8,
+    "freeze_damage_below_c": -3.0,
+    "heat_half_life_h_at_37c": 672,
+    "reconstituted_max_h": null,
+    "label_storage": "2 to 8 C; do not freeze",
+    "basis": "WHO handbook: TT freezes at -3 C; very heat stable (resistant to 55 C)"
+  }
+}

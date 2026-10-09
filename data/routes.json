@@ -1,0 +1,29 @@
+{
+  "PUN-MUM": [
+    "CP-PUN-01",
+    "CP-LON-01",
+    "CP-MUM-01"
+  ],
+  "PUN-NSK-SUR": [
+    "CP-PUN-01",
+    "CP-NSK-01",
+    "CP-DHU-01",
+    "CP-SUR-01"
+  ],
+  "PUN-NAG": [
+    "CP-PUN-01",
+    "CP-AHN-01",
+    "CP-AUR-01",
+    "CP-NAG-01"
+  ],
+  "PUN-HYD": [
+    "CP-PUN-01",
+    "CP-SOL-01",
+    "CP-HYD-01"
+  ],
+  "PUN-HUB": [
+    "CP-PUN-01",
+    "CP-SOL-01",
+    "CP-HUB-01"
+  ]
+}
